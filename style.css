@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(255, 173, 218);
+}
+
+.main-div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 90vh;
+}
+.container{
+    position: relative;
+    background-color: rgb(101, 174, 223);
+    width:500px;
+    height: 450px;
+    border-radius: 0.8rem;
+}
+h1{
+    margin: 2rem;
+}
+.grid{
+    margin: 1rem auto;
+    display: flex;
+    flex-wrap: wrap;
+    height: 300px;
+    width: 400px;
+}
